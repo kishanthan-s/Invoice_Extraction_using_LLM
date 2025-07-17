@@ -10,7 +10,7 @@ def extract_text_from_pdf(file_path):
         for page in doc:
             text += page.get_text()
     return text
-pdf_path = "/content/1XXXX0340_1223_AC_DET.pdf"  # Replace with your actual PDF path
+pdf_path = "/content/1XXXX.pdf"  # Replace with your actual PDF path
 pdf_text = extract_text_from_pdf(pdf_path)
 #print(pdf_text)
 
